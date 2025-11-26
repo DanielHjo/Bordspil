@@ -1,4 +1,4 @@
-# Bordspil
+# Borðspil
 Höfundar: Alexander, Daníel og Warissa
 
 Til að byrja með kasta allir teningnum (ýta á takkan) til að sjá hver byrjar sem fær hæstu töluna byrjar.
