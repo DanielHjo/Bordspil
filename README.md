@@ -3,7 +3,7 @@ Höfundar: Alexander, Daníel og Warissa
 
 Til að byrja með kasta allir teningnum (ýta á takkan) til að sjá hver byrjar sem fær hæstu töluna byrjar.
 Það eru þrautir, refsingar og verðlaunir á hverjum reit eins og t.d. gera armbeygjur, fara aftur um tvo reiti eða fram um tvo reiti.
-Það eru svo líka sprengjur á sumum.
+Það eru svo líka sprengjur á sumum reitum.
 
 # Reglurnar eru einfaldar
 ## Byrjun
