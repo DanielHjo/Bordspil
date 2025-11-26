@@ -6,6 +6,7 @@ Til að byrja með kasta allir teningnum (ýta á takkan) til að sjá hver byrj
 Það eru svo líka sprengjur á sumum.
 
 # Reglurnar eru einfaldar
+## Byrjun
 Kastaðu upp á hver byrjar sem fær hæsta byrjar, fyrstur á FINISH reitinn vinnur. 
 ## Sprengja
 Ef lent er á sprengju þarf að kasta aftur ef þú færð þrjá eða lægra farðu aftur um fjóra reiti af þú færð hærra en þrjá farðu fram um tvo reiti.
