@@ -9,6 +9,8 @@ Til að byrja með kasta allir teningnum (ýta á takkan) til að sjá hver byrj
 ## Byrjun
 Kastaðu upp á hver byrjar sem fær hæsta byrjar, fyrstur á FINISH reitinn vinnur. 
 ## Sprengja
-Ef lent er á sprengju þarf að kasta aftur ef þú færð þrjá eða lægra farðu aftur um fjóra reiti af þú færð hærra en þrjá farðu fram um tvo reiti.
+Þegar lent er á sprengju þarf að kasta aftur ef þú færð þrjá eða lægra farðu aftur um fjóra reiti af þú færð hærra en þrjá farðu fram um tvo reiti.
 ## Þrautir
 Ef ekki er náð að klára þrautina sem þú lentir á slepptu næstu umferð þinni.
+## Hreyfing
+Ef þú ert hreyfður vegna áhrif einhvers annað en teninga kasts þá áttu EKKI að gera það sem nýji reyturinn segir
