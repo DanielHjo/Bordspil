@@ -16,14 +16,21 @@ from time import sleep
 #Þrauta reitur:
 #Ef ekki er náð að klára þrautina sem þú lentir á slepptu næstu umferð þinni.
 
+#Hreyfing:
+#Ef þú ert hreyfður vegna áhrif einhvers annað en teninga kasts þá áttu EKKI að gera það sem nýji reyturinn segir.
 
 
-reed = Pin(2, Pin.IN, Pin.PULL_UP)
-hatalari = PWM(Pin(10), 20000)
+
+reed1 = Pin(14, Pin.IN, Pin.PULL_UP)
+reed2 = Pin(13, Pin.IN, Pin.PULL_UP)
+reed3 = Pin(12, Pin.IN, Pin.PULL_UP)
+reed4 = Pin(11, Pin.IN, Pin.PULL_UP)
+
+hatalari = PWM(Pin(9), 20000)
 nol = 24
-NeoPin = Pin(14)
+NeoPin = Pin(18)
 np = neopixel.NeoPixel(NeoPin, nol)
-button = Pin(13, Pin.IN, Pin.PULL_UP)
+button = Pin(17, Pin.IN, Pin.PULL_UP)
 
 
 
@@ -52,10 +59,27 @@ while True:
   
     
 while True:
-    if not reed.value():   # ef reitur er tómur þá er gildið 1 lesið.
+    if not reed1.value():   # ef reitur er tómur þá er gildið 1 lesið.
         hatalari.duty(512) 
         hatalari.freq(440) 
         print("1")
+        
+    if not reed2.value():   # ef reitur er tómur þá er gildið 1 lesið.
+        hatalari.duty(512) 
+        hatalari.freq(440) 
+        print("2")
+        
+        
+    if not reed3.value():   # ef reitur er tómur þá er gildið 1 lesið.
+        hatalari.duty(512) 
+        hatalari.freq(440) 
+        print("3")
+        
+        
+    if not reed4.value():   # ef reitur er tómur þá er gildið 1 lesið.
+        hatalari.duty(512) 
+        hatalari.freq(440) 
+        print("4")
     else:
         hatalari.duty(0)  # slekkur á hátalaranum
         print("0")        
