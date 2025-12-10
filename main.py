@@ -42,7 +42,7 @@ button = Pin(17, Pin.IN, Pin.PULL_UP)
 song = '0 D5 4 14;4 A5 4 14;8 C6 4 14;12 B5 4 14;16 G5 2 14;18 F5 2 14;20 E5 2 14;22 F5 2 14;24 G5 8 14;4 E5 8 16;4 C5 8 16;4 F4 8 16;12 D5 8 16;12 B4 8 16;12 E4 8 16;20 C5 8 16;20 A4 8 16;20 D4 8 16;0 E4 4 16;0 B4 4 16;28 E4 4 16;28 B4 4 16'
 
 
-mySong = music(song, looping=False, pins=[Pin(10)])
+mySong = music(song, looping=False, pins=[Pin(9)])
 
 
 
@@ -61,33 +61,33 @@ while True:
 while True:
     if not reed1.value():   # ef reitur er tómur þá er gildið 1 lesið.
         hatalari.duty(512) 
-        hatalari.freq(440) 
+        hatalari.freq(880) 
         print("1")
         
-    if not reed2.value():   # ef reitur er tómur þá er gildið 1 lesið.
+    elif not reed2.value():   # ef reitur er tómur þá er gildið 1 lesið.
         hatalari.duty(512) 
         hatalari.freq(440) 
         print("2")
         
         
-    if not reed3.value():   # ef reitur er tómur þá er gildið 1 lesið.
+    elif not reed3.value():   # ef reitur er tómur þá er gildið 1 lesið.
         hatalari.duty(512) 
         hatalari.freq(440) 
-        print("3")
+        print("4")
         
         
-    if not reed4.value():   # ef reitur er tómur þá er gildið 1 lesið.
+    elif not reed4.value():   # ef reitur er tómur þá er gildið 1 lesið.
         hatalari.duty(512) 
         hatalari.freq(440) 
         print("4")
     else:
-        hatalari.duty(0)  # slekkur á hátalaranum
+        hatalari.duty(0)   
         print("0")        
         
 
     if not button.value():          
         np.fill((0,0,0)) # resettar LEDs
-        led = random.randint(0, nol)
+        led = random.randint(0, nol -1)
         np[led] = (0, 100, 0) # kveikir á grænum lit
         np.write()
         time.sleep(0.3) # debounce
