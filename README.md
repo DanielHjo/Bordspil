@@ -14,3 +14,5 @@ Kastaðu upp á hver byrjar sem fær hæsta byrjar, fyrstur á FINISH reitinn vi
 Ef ekki er náð að klára þrautina sem þú lentir á slepptu næstu umferð þinni.
 ## Hreyfing
 Ef þú ert hreyfður vegna áhrif einhvers annað en teninga kasts þá áttu EKKI að gera það sem nýji reyturinn segir
+## Linkur
+[Youtube](https://youtube.com/shorts/wVv64EudTac?feature=share)
