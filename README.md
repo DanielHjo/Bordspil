@@ -16,3 +16,4 @@ Ef ekki er náð að klára þrautina sem þú lentir á slepptu næstu umferð 
 Ef þú ert hreyfður vegna áhrif einhvers annað en teninga kasts þá áttu EKKI að gera það sem nýji reyturinn segir
 ## Linkur
 [Youtube](https://youtube.com/shorts/wVv64EudTac?feature=share)
+<img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_112350.jpg" width="50% height="50%">
