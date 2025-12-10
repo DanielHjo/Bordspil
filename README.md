@@ -23,6 +23,6 @@ Ef þú ert hreyfður vegna áhrif einhvers annað en teninga kasts þá áttu E
 
 <img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_120032.jpg" width="50%" height="50%">
 
-<img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_112350.jpg" width="50%" height="50%">
+<img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_120057.jpg" width="50%" height="50%">
 
-<img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_112350.jpg" width="50%" height="50%">
+<img src="https://github.com/DanielHjo/Bordspil/blob/main/20251210_121727.jpg" width="50%" height="50%">
